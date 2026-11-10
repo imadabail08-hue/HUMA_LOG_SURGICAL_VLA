@@ -288,7 +288,9 @@ HUMA_LOG_SURGICAL_VLA/
 ## 👤 Auteur & Profil
 
 **Imad Abail**
-- 🐙 **GitHub :** [@imadabail08-cpu](https://github.com/imadabail08-cpu)
+- 🐙 **GitHub :** [@imadabail08-hue](https://github.com/imadabail08-hue)
+- 💼 **LinkedIn :** [imad-abail-765440287](https://www.linkedin.com/in/imad-abail-765440287)
+- 🎓 **Email Académique :** [imad_abail@um5.ac.ma](mailto:imad_abail@um5.ac.ma)
 - 🔬 **Domaine de Recherche :** Physical AI, Computer Vision, Digital Twins & Medical Robotics
 - 💼 **Projet :** HUMA-LOG SURGICAL-VLA (Fin d'Études / Recherche Académique)
 
