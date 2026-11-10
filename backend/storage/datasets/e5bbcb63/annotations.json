@@ -1,0 +1,192 @@
+[
+  {
+    "image_id": "medical_box_perspective",
+    "filename": "medical_box_perspective.jpg",
+    "width": 1024,
+    "height": 767,
+    "image_url": "/api/datasets/e5bbcb63/raw/medical_box_perspective.jpg",
+    "boxes": [
+      {
+        "id": "735db989",
+        "label": "scissors",
+        "confidence": 0.848,
+        "x": 0.5491,
+        "y": 0.3363,
+        "width": 0.1446,
+        "height": 0.3603,
+        "verified": false,
+        "source": "ai"
+      },
+      {
+        "id": "7e0490be",
+        "label": "scissors",
+        "confidence": 0.768,
+        "x": 0.6779,
+        "y": 0.3135,
+        "width": 0.0813,
+        "height": 0.4252,
+        "verified": false,
+        "source": "ai"
+      }
+    ],
+    "quality_status": "review_recommended",
+    "quality_score": 85.4,
+    "anomalies": [
+      {
+        "code": "MEDIUM_CONFIDENCE",
+        "message": "Confiance modérée (76%) pour 'scissors'",
+        "severity": "medium",
+        "box_id": "7e0490be"
+      }
+    ],
+    "is_reviewed": false
+  },
+  {
+    "image_id": "medical_box_topdown",
+    "filename": "medical_box_topdown.jpg",
+    "width": 1024,
+    "height": 768,
+    "image_url": "/api/datasets/e5bbcb63/raw/medical_box_topdown.jpg",
+    "boxes": [
+      {
+        "id": "7ccbaee4",
+        "label": "scissors",
+        "confidence": 0.84,
+        "x": 0.5456,
+        "y": 0.2413,
+        "width": 0.1539,
+        "height": 0.49,
+        "verified": false,
+        "source": "ai"
+      },
+      {
+        "id": "3c391b02",
+        "label": "knife",
+        "confidence": 0.549,
+        "x": 0.6996,
+        "y": 0.2313,
+        "width": 0.0679,
+        "height": 0.5547,
+        "verified": false,
+        "source": "ai"
+      },
+      {
+        "id": "a602191f",
+        "label": "scissors",
+        "confidence": 0.431,
+        "x": 0.31903645138296,
+        "y": 0.3148256914971729,
+        "width": 0.14666354861704003,
+        "height": 0.34317430850282715,
+        "verified": true,
+        "source": "ai"
+      },
+      {
+        "id": "d75455e2",
+        "label": "knife",
+        "confidence": 0.318,
+        "x": 0.2102,
+        "y": 0.2497,
+        "width": 0.0648,
+        "height": 0.5268,
+        "verified": false,
+        "source": "ai"
+      },
+      {
+        "id": "3edd1a97",
+        "label": "knife",
+        "confidence": 0.276,
+        "x": 0.545,
+        "y": 0.2432,
+        "width": 0.155,
+        "height": 0.49,
+        "verified": false,
+        "source": "ai"
+      },
+      {
+        "id": "6ab7d613",
+        "label": "knife",
+        "confidence": 0.249,
+        "x": 0.8314,
+        "y": 0.2343,
+        "width": 0.0745,
+        "height": 0.5407,
+        "verified": false,
+        "source": "ai"
+      }
+    ],
+    "quality_status": "alert",
+    "quality_score": 7.2,
+    "anomalies": [
+      {
+        "code": "MEDIUM_CONFIDENCE",
+        "message": "Confiance modérée (54%) pour 'knife'",
+        "severity": "medium",
+        "box_id": "3c391b02"
+      },
+      {
+        "code": "LOW_CONFIDENCE",
+        "message": "Confiance faible (43%) pour 'scissors'",
+        "severity": "high",
+        "box_id": "a602191f"
+      },
+      {
+        "code": "LOW_CONFIDENCE",
+        "message": "Confiance faible (31%) pour 'knife'",
+        "severity": "high",
+        "box_id": "d75455e2"
+      },
+      {
+        "code": "LOW_CONFIDENCE",
+        "message": "Confiance faible (27%) pour 'knife'",
+        "severity": "high",
+        "box_id": "3edd1a97"
+      },
+      {
+        "code": "LOW_CONFIDENCE",
+        "message": "Confiance faible (24%) pour 'knife'",
+        "severity": "high",
+        "box_id": "6ab7d613"
+      },
+      {
+        "code": "DUPLICATE_OVERLAP",
+        "message": "Forte superposition (IoU: 98%) entre 'scissors' et 'knife'",
+        "severity": "high",
+        "box_id": "3edd1a97"
+      }
+    ],
+    "is_reviewed": false
+  },
+  {
+    "image_id": "surgical_kit_ground_truth",
+    "filename": "surgical_kit_ground_truth.jpg",
+    "width": 768,
+    "height": 1024,
+    "image_url": "/api/datasets/e5bbcb63/raw/surgical_kit_ground_truth.jpg",
+    "boxes": [
+      {
+        "id": "268d5e0b",
+        "label": "scissors",
+        "confidence": 0.331,
+        "x": 0.0184,
+        "y": 0.0403,
+        "width": 0.8049,
+        "height": 0.2194,
+        "verified": false,
+        "source": "ai"
+      }
+    ],
+    "quality_status": "alert",
+    "quality_score": 54.0,
+    "anomalies": [
+      {
+        "code": "LOW_CONFIDENCE",
+        "message": "Confiance faible (33%) pour 'scissors'",
+        "severity": "high",
+        "box_id": "268d5e0b"
+      }
+    ],
+    "is_reviewed": false
+  }
+]
+]
